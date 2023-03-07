@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Check SNT</title>
+</head>
+<body>
+<script>
+    let n = +prompt("Enter a Prime");
+    function isPrime(number){
+            for(let i = 2; i <= n/2; i++) {
+                if(n % i === 0) {
+                    return (n + " Is not Prime");
+                }
+            }
+        return (n + " Is not Prime");
+    }
+    alert(isPrime(n));
+</script>
+</body>
+</html>
