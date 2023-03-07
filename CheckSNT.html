@@ -10,10 +10,10 @@
     function isPrime(number){
             for(let i = 2; i <= n/2; i++) {
                 if(n % i === 0) {
-                    return (n + " Is not Prime");
+                    return false;
                 }
             }
-        return (n + " Is not Prime");
+        return n;
     }
     alert(isPrime(n));
 </script>
